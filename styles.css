@@ -44,7 +44,9 @@ a {
 .menuitem {
     flex: 1;
     color: #fff;
-    border: 1px solid;
+    border: 0.3vw;
+    border-style: dashed solid;
+    border-radius: 0.2vw;
     text-align: center;
     text-decoration: none;
     transition: all 0.3s ease-out;

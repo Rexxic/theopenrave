@@ -43,9 +43,8 @@ a {
 
 .menuitem {
     flex: 1;
-    color: #fff;
-    border: 0.3vw;
-    border-style: dashed solid;
+    color: ghostwhite;
+    border: 0.3vw solid;
     border-radius: 0.2vw;
     text-align: center;
     text-decoration: none;
@@ -53,7 +52,7 @@ a {
 }
 
 .menuitem:hover, .menuitem:focus {
-    background-color: #fff;
+    background-color: ghostwhite;
     color: #0f0e10;
 }
 

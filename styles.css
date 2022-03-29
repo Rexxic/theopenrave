@@ -27,6 +27,7 @@ header, h1, h2 {
 
 .banner {
     width: 50%;
+    flex: 0;
 }
 
 nav {
@@ -57,23 +58,32 @@ a {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 70% 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 article {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .flyer {
     width: 100%;
+    max-width:512px;
+    min-width:256px;
 }
 
 aside {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
     padding: 8.5% 5% 5% 5%;
 }

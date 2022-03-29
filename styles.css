@@ -1,7 +1,13 @@
 :root {
     --colorwhite: ghostwhite;
     --colorblack: #0f0e10;
-    --relsizevw: 4vw;
+    --minscale: 2rem;
+}
+
+@media screen and (orientation: portrait) {
+    :root {
+        --minscale: 4rem;
+    }
 }
 
 html {
@@ -28,10 +34,10 @@ header, h1, h2 {
 }
 
 h2 {
-    font-size: calc(6mm + 1vw);
+    font-size: calc(0.5 * var(--minscale) + 1vw);
     height: 4vw;
     max-height: 2rem;
-    min-width: 8rem;
+    min-width: calc(4 * var(--minscale));
 }
 
 .banner {

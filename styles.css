@@ -23,15 +23,15 @@ header, nav, h1, h2 {
     align-items: center;
 }
 
+header, h1, h2 {
+    justify-content: center;
+}
+
 h2 {
-    font-size: calc(5mm + 1vw);
+    font-size: calc(6mm + 1vw);
     height: 4vw;
     max-height: 2rem;
     min-width: 8rem;
-}
-
-header, h1, h2 {
-    justify-content: center;
 }
 
 .banner {
@@ -48,9 +48,16 @@ nav {
     gap: 4vw;
 }
 
+.menugroup {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4vw;
+}
+
 a {
     text-decoration: none;
-    color: inherit;
 }
 
 .menuitem {
@@ -64,7 +71,7 @@ a {
     transition: all 0.3s ease-out;
 }
 
-.menuitem:hover, .menuitem:focus {
+.menuitem:hover, .menuitem:focus, .menuitem:active {
     background-color: var(--colorwhite);
     color: var(--colorblack);
 }

@@ -1,3 +1,9 @@
+:root {
+    --colorwhite: ghostwhite;
+    --colorblack: #0f0e10;
+    --relsizevw: 4vw;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -7,8 +13,8 @@ html {
 }
 
 body {
-    background-color: #0f0e10;
-    color: #FFFFFF;
+    background-color: var(--colorblack);
+    color: var(--colorwhite);
     padding: 1%;
 }
 
@@ -50,7 +56,7 @@ a {
 .menuitem {
     flex: 1;
     height: 100%;
-    color: ghostwhite;
+    color: var(--colorwhite);
     border: calc(1px + 0.2vw) solid;
     border-radius: calc(1px + 0.2vw);
     text-align: center;
@@ -59,8 +65,8 @@ a {
 }
 
 .menuitem:hover, .menuitem:focus {
-    background-color: ghostwhite;
-    color: #0f0e10;
+    background-color: var(--colorwhite);
+    color: var(--colorblack);
 }
 
 main {
@@ -77,13 +83,13 @@ article {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly;
-    min-width: 512px;
+    min-width: 32rem;
 }
 
 .flyer {
     width: 100%;
-    max-width:512px;
-    min-width:256px;
+    max-width: 32rem;
+    min-width: 16rem;
 }
 
 aside {

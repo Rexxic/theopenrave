@@ -18,7 +18,9 @@ header, nav, h1, h2 {
 }
 
 h2 {
-    font-size: 2.5vw;
+    font-size: calc(5mm + 1vw);
+    height: 4vw;
+    min-width: 96px;
 }
 
 header, h1, h2 {
@@ -32,10 +34,11 @@ header, h1, h2 {
 }
 
 nav {
-    padding: 3% 5% 2% 5%;
+    padding: 4vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 8%;
+    gap: 4vw;
 }
 
 a {
@@ -45,9 +48,10 @@ a {
 
 .menuitem {
     flex: 1;
+    height: 100%;
     color: ghostwhite;
-    border: 0.3vw solid;
-    border-radius: 0.2vw;
+    border: calc(1px + 0.2vw) solid;
+    border-radius: calc(1px + 0.2vw);
     text-align: center;
     text-decoration: none;
     transition: all 0.3s ease-out;
@@ -72,6 +76,7 @@ article {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly;
+    min-width: 512px;
 }
 
 .flyer {

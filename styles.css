@@ -20,7 +20,8 @@ header, nav, h1, h2 {
 h2 {
     font-size: calc(5mm + 1vw);
     height: 4vw;
-    min-width: 96px;
+    max-height: 2rem;
+    min-width: 8rem;
 }
 
 header, h1, h2 {
@@ -29,7 +30,7 @@ header, h1, h2 {
 
 .banner {
     max-width: 50%;
-    min-width: 512px;
+    min-width: 32rem;
     flex: 1;
 }
 

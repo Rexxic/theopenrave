@@ -10,6 +10,13 @@
     }
 }
 
+
+@me {
+    .flyer {
+        max-width: calc(400 + 20vw);
+    }
+}
+
 html {
     box-sizing: border-box;
 }
@@ -24,12 +31,9 @@ body {
     padding: 1%;
 }
 
-header, nav, h1, h2 {
+header, h1, h2 {
     display: flex;
     align-items: center;
-}
-
-header, h1, h2 {
     justify-content: center;
 }
 
@@ -41,23 +45,20 @@ h2 {
 }
 
 .banner {
-    max-width: 50%;
-    min-width: 32rem;
+    max-width: calc(256px + 25vw);
+    max-height: calc(256px + 25vh);
     flex: 1;
 }
 
 nav {
     padding: 4vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 4vw;
 }
 
-.menugroup {
+nav, .menugroup {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
     gap: 4vw;
 }
@@ -82,8 +83,11 @@ a {
     color: var(--colorblack);
 }
 
-main {
+main, article, aside {
+    padding: 2vw;
+    gap: 2vw;
     display: flex;
+    flex: 2;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -91,25 +95,10 @@ main {
 }
 
 article {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    min-width: 32rem;
+    flex: 3;
 }
 
 .flyer {
     width: 100%;
     max-width: 32rem;
-    min-width: 16rem;
-}
-
-aside {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    padding: 8.5% 5% 5% 5%;
 }

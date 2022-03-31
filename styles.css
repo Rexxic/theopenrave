@@ -8,12 +8,33 @@
     :root {
         --minscale: 4rem;
     }
+
+    article, aside{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
+@media screen and (orientation: landscape) {
+    main, aside {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
 
-@me {
-    .flyer {
-        max-width: calc(400 + 20vw);
+    article {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 25vw);
+        grid-auto-flow: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 3;
     }
 }
 
@@ -45,8 +66,8 @@ h2 {
 }
 
 .banner {
-    max-width: calc(256px + 25vw);
-    max-height: calc(256px + 25vh);
+    max-width: calc(8 * var(--minscale) + 25vw);
+    max-height: calc(8 * var(--minscale) + 25vh);
     flex: 1;
 }
 
@@ -86,19 +107,8 @@ a {
 main, article, aside {
     padding: 2vw;
     gap: 2vw;
-    display: flex;
-    flex: 2;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-
-article {
-    flex: 3;
 }
 
 .flyer {
     width: 100%;
-    max-width: 32rem;
 }

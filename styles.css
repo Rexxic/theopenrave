@@ -124,13 +124,13 @@ h2 {
 }
 
 h3 {
-    font-size: calc(var(--minscale) + 1vw);
+    font-size: calc(0.75 * var(--minscale) + 1vw);
     gap: calc(0.5 * var(--minscale));
 }
 
 .icon {
-    width: calc(1.5 * var(--minscale));
-    height: calc(1.5 * var(--minscale));
+    width: calc(1.25 * var(--minscale));
+    height: calc(1.25 * var(--minscale));
 }
 
 main, aside {

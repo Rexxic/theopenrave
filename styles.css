@@ -68,7 +68,6 @@ header, h1, h2, h3 {
 }
 
 h2, h3 {
-    font-size: calc(0.5 * var(--minscale) + 1vw);
     height: 4vw;
     max-height: 2rem;
     min-width: calc(4 * var(--minscale));
@@ -97,6 +96,10 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: calc(0.5 * var(--minscale) + 1vw);
+}
+
 .menuitem {
     flex: 1;
     height: 100%;
@@ -121,12 +124,13 @@ a {
 }
 
 h3 {
-    gap: 1rem;
+    font-size: calc(var(--minscale) + 1vw);
+    gap: calc(0.5 * var(--minscale));
 }
 
 .icon {
-    width: calc(2rem + 1vw);
-    height: calc(2rem + 1vw);
+    width: calc(1.5 * var(--minscale));
+    height: calc(1.5 * var(--minscale));
 }
 
 main, aside {

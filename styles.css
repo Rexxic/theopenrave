@@ -64,10 +64,7 @@ header, h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-
-header, h1, h3 {
-    color: var(--colorwhite);
+    color: inherit;
 }
 
 h2, h3 {

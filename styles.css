@@ -103,7 +103,7 @@ h2 {
 .menuitem {
     flex: 1;
     height: 100%;
-    color: inherit;
+    color: var(--colorwhite);
     border: calc(1px + 0.2vw) solid;
     border-radius: calc(1px + 0.2vw);
     text-align: center;

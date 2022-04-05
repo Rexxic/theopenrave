@@ -100,10 +100,9 @@ h2 {
     font-size: calc(0.5 * var(--minscale) + 1vw);
 }
 
-.menuitem {
+.menuitem, .menuitemAlt {
     flex: 1;
     height: 100%;
-    color: var(--colorwhite);
     border: calc(1px + 0.2vw) solid;
     border-radius: calc(1px + 0.2vw);
     text-align: center;
@@ -111,7 +110,12 @@ h2 {
     transition: all 0.3s ease-out;
 }
 
-.menuitem:hover, .menuitem:focus, .menuitem:active {
+.menuitem {
+    background: var(--colorblack);
+    color: var(--colorwhite);
+}
+
+.menuitemAlt, .menuitem:hover, .menuitem:focus, .menuitem:active {
     background-color: var(--colorwhite);
     color: var(--colorblack);
 }

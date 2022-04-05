@@ -111,7 +111,7 @@ h2 {
 }
 
 .menuitem {
-    background: var(--colorblack);
+    background-color: var(--colorblack);
     color: var(--colorwhite);
 }
 

@@ -148,3 +148,14 @@ article, aside {
 .flyer {
     width: 100%;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+}
+
+span {
+    padding: 0 0.5rem;
+}

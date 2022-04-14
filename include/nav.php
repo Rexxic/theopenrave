@@ -1,12 +1,23 @@
+<?php
+function getclass($item)
+{
+    if (str_replace("/index.php","",$_SERVER['PHP_SELF']) == '/'.$item) {
+        return 'menuitemAlt';
+    } else {
+        return 'menuitem';
+    }
+}
+?>
+
 <nav>
     <div class="navgroup">
         <div class="menugroup">
-            <a class="menuitem" href="/events"><h2>Events</h2></a>
-            <a class="menuitem" href="/gallerie"><h2>Gallerie</h2></a>
+            <a class=<?= getclass('events') ?> href="/events"><h2>Events</h2></a>
+            <a class=<?= getclass('gallerie') ?> href="/gallerie"><h2>Gallerie</h2></a>
         </div>
         <div class="menugroup">
-            <a class="menuitem" href="/archiv"><h2>Archiv</h2></a>
-            <a class="menuitem" href="/kontakt"><h2>Kontakt</h2></a>
+            <a class=<?= getclass('archiv') ?> href="/archiv"><h2>Archiv</h2></a>
+            <a class=<?= getclass('kontakt') ?> href="/kontakt"><h2>Kontakt</h2></a>
         </div>
     </div>
     <div class="refgroup">

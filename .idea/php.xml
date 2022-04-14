@@ -9,7 +9,6 @@
       <extension name="SaxonC" enabled="true" />
       <extension name="ZendCache" enabled="true" />
       <extension name="aerospike" enabled="true" />
-      <extension name="ast" enabled="true" />
       <extension name="blackfire" enabled="true" />
       <extension name="com_dotnet" enabled="true" />
       <extension name="crypto" enabled="true" />
@@ -42,7 +41,6 @@
       <extension name="yaf" enabled="true" />
       <extension name="yar" enabled="true" />
       <extension name="zookeeper" enabled="true" />
-      <extension name="zstd" enabled="true" />
     </extensions>
   </component>
 </project>

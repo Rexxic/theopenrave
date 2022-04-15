@@ -93,7 +93,6 @@ h2, h3 {
 
 a {
     color: var(--colorwhite);
-    text-decoration: none;
 }
 
 h2 {
@@ -125,6 +124,16 @@ h2 {
     padding-top: 2vw;
     align-items: center;
     justify-content: center;
+}
+
+.kontakt {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    padding: 0 2.5vw 2.5vw 2.5vw;
+    font-size: calc(0.5 * var(--minscale) + 0.5vw);
 }
 
 h3 {

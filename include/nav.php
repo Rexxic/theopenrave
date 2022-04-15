@@ -17,7 +17,7 @@ function getclass($item)
         </div>
         <div class="menugroup">
             <a class=<?= getclass('archiv') ?> href="/archiv"><h2>Archiv</h2></a>
-            <a class=<?= getclass('kontakt') ?> href="/kontakt"><h2>Kontakt</h2></a>
+            <a class=<?= getclass('kontakt') ?> href="/kontakt"><h2>Über uns</h2></a>
         </div>
     </div>
     <div class="refgroup">

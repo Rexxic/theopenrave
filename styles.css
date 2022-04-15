@@ -139,9 +139,10 @@ h2 {
 .text {
     display: flex;
     flex-flow: column;
+    align-items: center;
+    justify-content: center;
     font-size: inherit;
     text-align: center;
-    justify-content: center;
 }
 
 h3 {

@@ -64,6 +64,7 @@ header, h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    text-align: center;
     color: inherit;
 }
 
@@ -148,6 +149,11 @@ h3 {
 
 main, aside {
     padding: 2vw;
+}
+
+.text {
+    font-size: inherit;
+    text-align: center;
 }
 
 article, aside {

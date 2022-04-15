@@ -18,21 +18,21 @@ include($_SERVER['DOCUMENT_ROOT'] . "/include/nav.php");
         veranstalten wir Outdoor Raves und gewinnen mit jedem Event an Erfahrung und
         Professionalität. Mit 2022 haben wir uns vorgenommen mit dem Wegfallen der Regelungen
         auch mit Veranstaltungen in Indoor Locations durchzustarten und unsere regionale Technoszene
-        um unvergessliche Abende zu bereichern.<br/>
+        um unvergessliche Abende zu bereichern.
     </p>
     <p class="text">
         Wenn ihr immer die neuesten Infos zu unseren Events bekommen wollt,
-        kommt in eine unserer Whatsapp-Gruppen.<br/>
+        kommt in eine unserer Whatsapp-Gruppen.
     </p>
     <p class="text">
-        <a href="https://chat.whatsapp.com/Dlil2R9OhjV5wLyqivORja">Gruppe 1</a><br/>
-        <a href="https://chat.whatsapp.com/D52t3DjmE2YC78WgCGLfo0">Gruppe 2</a><br/>
+        <a href="https://chat.whatsapp.com/Dlil2R9OhjV5wLyqivORja">Gruppe 1</a>
+        <a href="https://chat.whatsapp.com/D52t3DjmE2YC78WgCGLfo0">Gruppe 2</a>
     </p>
     <p class="text">
-        Wenn ihr Fragen oder Anregungen habt könnt ihr uns gerne kontaktieren.<br/>
+        Wenn ihr Fragen oder Anregungen habt könnt ihr uns gerne kontaktieren.
     </p>
     <p class="text">
-        <a href="mailto: kontakt@theopenrave.de">kontakt@theopenrave.de</a><br/>
+        <a href="mailto: kontakt@theopenrave.de">kontakt@theopenrave.de</a>
     </p>
 </main>
 <?php

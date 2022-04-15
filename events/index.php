@@ -8,7 +8,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/include/head.php");
 include($_SERVER['DOCUMENT_ROOT'] . "/include/header.php");
 include($_SERVER['DOCUMENT_ROOT'] . "/include/nav.php");
 ?>
-<main>
+<main class="content">
     <article>
         <?php
         $dir = '/media/events';

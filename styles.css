@@ -23,7 +23,7 @@
 }
 
 @media screen and (orientation: landscape) {
-    main, aside {
+    .content, aside {
         display: flex;
         flex: 2;
         flex-direction: row;
@@ -63,7 +63,7 @@ body {
 header, h1, h2, h3 {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     color: inherit;
 }
@@ -129,6 +129,7 @@ h2 {
 
 .kontakt {
     display: flex;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
     padding: 0 2.5vw 2.5vw 2.5vw;
@@ -137,6 +138,7 @@ h2 {
 
 .text {
     display: flex;
+    flex-flow: column;
     font-size: inherit;
     text-align: center;
     justify-content: center;

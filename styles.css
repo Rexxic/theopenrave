@@ -129,10 +129,11 @@ h2 {
 
 .kontakt {
     display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    color: inherit;
+    flex: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
     padding: 0 2.5vw 2.5vw 2.5vw;
     font-size: calc(0.5 * var(--minscale) + 0.5vw);
 }

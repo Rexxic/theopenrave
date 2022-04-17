@@ -9,7 +9,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/include/header.php");
 include($_SERVER['DOCUMENT_ROOT'] . "/include/nav.php");
 ?>
 <main class="kontakt">
-    <h3 class="text">
+    <h3 class="instaheader">
         Herzlich Willkommen, wir sind The Open Rave.
     </h3>
     <p class="text">

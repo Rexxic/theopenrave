@@ -162,6 +162,7 @@ article {
     justify-content: center;
     font-size: calc(0.5 * var(--minscale) + 1vw);
     text-align: center;
+    width: 100%;
 }
 
 .kontakt {

@@ -84,7 +84,7 @@ h2 {
     font-size: calc(0.5 * var(--minscale) + 1vw);
 }
 
-h3 {
+.instaheader {
     display: flex;
     align-items: center;
     justify-content: center;

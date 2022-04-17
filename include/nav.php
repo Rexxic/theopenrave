@@ -1,12 +1,13 @@
 <?php
 function getclass($item)
 {
-    if (str_replace("/index.php","",$_SERVER['PHP_SELF']) == '/'.$item) {
+    if (str_replace("/index.php", "", $_SERVER['PHP_SELF']) == '/' . $item) {
         return 'menuitemAlt';
     } else {
         return 'menuitem';
     }
 }
+
 ?>
 
 <nav>
@@ -22,7 +23,8 @@ function getclass($item)
     </div>
     <div class="refgroup">
         <a class="instaref" href="https://www.instagram.com/theopenrave/">
-            <h3><img class="icon" src="/media/logos/Instagram_Glyph_Gradient_RGB.png" alt="Instagram: ">theopenrave</h3>
+            <h3 class="instaheader"><img class="icon" src="/media/logos/Instagram_Glyph_Gradient_RGB.png"
+                                         alt="Instagram: ">theopenrave</h3>
         </a>
     </div>
 </nav>

@@ -25,14 +25,14 @@ include($_SERVER['DOCUMENT_ROOT'] . "/include/nav.php");
         kommt in eine unserer Whatsapp-Gruppen.
     </p>
     <p class="text">
-        <a href="https://chat.whatsapp.com/Dlil2R9OhjV5wLyqivORja">Gruppe 1</a>
-        <a href="https://chat.whatsapp.com/D52t3DjmE2YC78WgCGLfo0">Gruppe 2</a>
+        <a href="https://chat.whatsapp.com/Dlil2R9OhjV5wLyqivORja" class="text">Gruppe 1</a>
+        <a href="https://chat.whatsapp.com/D52t3DjmE2YC78WgCGLfo0" class="text">Gruppe 2</a>
     </p>
     <p class="text">
         Wenn ihr Fragen oder Anregungen habt könnt ihr uns gerne kontaktieren.
     </p>
     <p class="text">
-        <a href="mailto: kontakt@theopenrave.de">kontakt@theopenrave.de</a>
+        <a href="mailto: kontakt@theopenrave.de" class="text">kontakt@theopenrave.de</a>
     </p>
 </main>
 <?php

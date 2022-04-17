@@ -176,8 +176,7 @@ article {
     align-items: center;
     justify-content: center;
     font-size: calc(0.5 * var(--minscale) + 1vw);
-    text-align: justify;
-    text-align-last: center;
+    text-align: center;
     width: 100%;
 }
 

@@ -1,8 +1,5 @@
 :root {
-    font-family: 'Noto Sans', sans-serif;
-    mso-ansi-font-weight: lighter;
-    font-weight: lighter;
-    font-palette: light;
+    font-family: "NotoSans-Regular", sans-serif;
     --colorwhite: ghostwhite;
     --colorblack: #0f0e10;
     --minscale: 2rem;
@@ -10,8 +7,9 @@
 }
 
 @font-face {
-    src: local("media/Noto_Sans");
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans";
+    src: url("/media/Noto_Sans");
+    font-weight: normal;
 }
 
 @media screen and (orientation: portrait) {

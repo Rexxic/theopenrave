@@ -1,8 +1,17 @@
 :root {
+    font-family: 'Noto Sans', sans-serif;
+    mso-ansi-font-weight: lighter;
+    font-weight: lighter;
+    font-palette: light;
     --colorwhite: ghostwhite;
     --colorblack: #0f0e10;
     --minscale: 2rem;
     --fontsize: calc(0.5 * var(--minscale) + 1vw);
+}
+
+@font-face {
+    src: local("media/Noto_Sans");
+    font-family: 'Noto Sans';
 }
 
 @media screen and (orientation: portrait) {
@@ -191,7 +200,7 @@ article {
 }
 
 .kontaktlink {
-    font-size: inherit;
+    font-size: var(--fontsize);
 }
 
 aside {
@@ -212,4 +221,5 @@ footer {
 
 span {
     padding: 0 0.5rem;
+    font-size: calc(0.75 * var(--fontsize));
 }

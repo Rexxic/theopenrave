@@ -1,15 +1,11 @@
 :root {
-    font-family: "NotoSans-Regular", sans-serif;
+    font-family: "noto_sanslight", sans-serif;
+    font-style: normal;
+    font-weight: normal;
     --colorwhite: ghostwhite;
     --colorblack: #0f0e10;
     --minscale: 2rem;
     --fontsize: calc(0.5 * var(--minscale) + 1vw);
-}
-
-@font-face {
-    font-family: "Noto Sans";
-    src: url("/media/Noto_Sans");
-    font-weight: normal;
 }
 
 @media screen and (orientation: portrait) {
@@ -220,4 +216,8 @@ footer {
 span {
     padding: 0 0.5rem;
     font-size: calc(0.75 * var(--fontsize));
+}
+
+.gitlogo {
+    height: var(--fontsize)
 }

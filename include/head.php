@@ -4,6 +4,6 @@
     <meta property="og:description" content="Raves Heilbronn & Umgebung - Techno, HardTech, DnB">
     <meta property="og:title" content="The Open Rave">
     <title>The Open Rave</title>
-    <link rel="stylesheet" href="/fonts/Noto_Sans/stylesheet.css">
+    <link rel="stylesheet" href="/fonts/fonts.php">
     <link rel="stylesheet" href="/styles.css">
 </head>

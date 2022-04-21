@@ -125,7 +125,7 @@ a {
     justify-content: center;
     text-align: center;
     color: var(--colorwhite);
-    font-size: inherit;
+    font-size: var(--fontsize);
 }
 
 .menuitem, .menuitemAlt {

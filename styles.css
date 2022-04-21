@@ -5,12 +5,13 @@
     --colorwhite: ghostwhite;
     --colorblack: #0f0e10;
     --minscale: 2rem;
-    --fontsize: calc(0.8 * var(--minscale));
+    --fontsize: 1.5rem
 }
 
 @media screen and (orientation: portrait) {
     :root {
         --minscale: 4rem;
+        --fontsize: 3rem;
     }
 
     article {

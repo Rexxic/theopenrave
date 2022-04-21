@@ -5,7 +5,7 @@
     --colorwhite: ghostwhite;
     --colorblack: #0f0e10;
     --minscale: 2rem;
-    --fontsize: calc(0.5 * var(--minscale) + 1vw);
+    --fontsize: calc(0.8 * var(--minscale));
 }
 
 @media screen and (orientation: portrait) {
@@ -181,7 +181,7 @@ article {
     justify-content: center;
     font-size: var(--fontsize);
     text-align: center;
-    margin: 2vw;
+    margin: 1.25rem 2rem;
     width: 100%;
 }
 

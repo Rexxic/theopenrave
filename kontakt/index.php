@@ -32,7 +32,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/include/nav.php");
         Wenn ihr Fragen oder Anregungen habt könnt ihr uns gerne kontaktieren.
     </p>
     <p class="kontakttext">
-        <a href="mailto: kontakt@theopenrave.de" class="kontaktlink">kontakt@theopenrave.de</a>
+        <a href="mailto: kontakt@theopenrave.de">kontakt@theopenrave.de</a>
     </p>
 </main>
 <?php

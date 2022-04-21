@@ -193,10 +193,6 @@ article {
     padding: 0 2.5vw 2.5vw 2.5vw;
 }
 
-.kontaktlink {
-    font-size: var(--fontsize);
-}
-
 aside {
     padding: 2vw;
     gap: 2vw;

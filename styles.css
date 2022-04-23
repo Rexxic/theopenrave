@@ -4,11 +4,16 @@
     font-weight: normal;
     --colorwhite: ghostwhite;
     --colorblack: #0f0e10;
-    --minscale: 2vw;
-    --fontsize: 1.5vw
+    --minscale: 2rem;
+    --fontsize: 1.5rem
 }
 
 @media screen and (orientation: portrait) {
+    :root {
+        --minscale: 4rem;
+        --fontsize: 3rem;
+    }
+
     article {
         display: flex;
         flex: 1;

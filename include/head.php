@@ -7,6 +7,6 @@
     <meta name="description"
           content="Raves Heilbronn & Umgebung - Techno, HardTech, DnB - Instagram: The Open ℝave (@theopenrave)">
     <title>The Open Rave</title>
-    <link rel="stylesheet" href="<?= $_SERVER['DOCUMENT_ROOT'] ?>/fonts/fonts.php">
-    <link rel="stylesheet" href="<?= $_SERVER['DOCUMENT_ROOT'] ?>/styles.css">
+    <link rel="stylesheet" href="/fonts/fonts.php">
+    <link rel="stylesheet" href="/styles.css">
 </head>

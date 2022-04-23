@@ -1,5 +1,5 @@
 <?php
-function getclass($item)
+function getclass($item): string
 {
     if (str_replace("/index.php", "", $_SERVER['PHP_SELF']) == '/' . $item) {
         return 'menuitemAlt';

@@ -9,11 +9,6 @@
 }
 
 @media screen and (orientation: portrait) {
-    :root {
-        --minscale: 4rem;
-        --fontsize: 3rem;
-    }
-
     article {
         display: flex;
         flex: 1;

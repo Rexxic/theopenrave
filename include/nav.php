@@ -6,9 +6,7 @@ function getclass($item)
     } else {
         return 'menuitem';
     }
-}
-
-?>
+} ?>
 
 <nav>
     <div class="navgroup">

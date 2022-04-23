@@ -23,7 +23,7 @@ function getclass($item): string
         <a class="instaref" href="https://www.instagram.com/theopenrave/">
             <h3 class="instaheader">
                 <img class="icon"
-                     src="<?= $_SERVER['DOCUMENT_ROOT'] ?>/media/logos/Instagram_Glyph_Gradient_RGB.png"
+                     src="/media/logos/Instagram_Glyph_Gradient_RGB.png"
                      alt="Instagram: ">theopenrave</h3>
         </a>
     </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de-De" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "//include/head.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/include/head.php");
 ?>
 <body>
 <?php

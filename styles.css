@@ -34,7 +34,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     article {
@@ -126,7 +126,7 @@ a {
     justify-content: center;
     text-align: center;
     color: var(--colorwhite);
-    font-size: var(--fontsize);
+    font-size: inherit;
 }
 
 .menuitem, .menuitemAlt {

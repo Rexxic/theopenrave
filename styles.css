@@ -18,8 +18,9 @@
         display: flex;
         flex: 1;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: space-between;
+        gap: 6rem;
     }
 
     aside {
@@ -41,9 +42,11 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, 25vw);
         grid-auto-flow: row;
-        align-items: center;
+        align-items: start;
         justify-content: space-evenly;
         flex: 7;
+        gap: 2vw;
+
     }
 
     .refgroup {
@@ -60,7 +63,7 @@ html {
 }
 
 main {
-    padding: 2vw;
+    padding: 4rem 2vw 4rem 2vw;
 }
 
 body {
@@ -161,10 +164,6 @@ a {
     height: calc(1.25 * var(--minscale));
 }
 
-article {
-    gap: 2vw;
-}
-
 .kontaktheader {
     display: flex;
     flex-direction: column;
@@ -172,6 +171,7 @@ article {
     justify-content: center;
     color: inherit;
     font-size: calc(1.2 * var(--fontsize));
+    margin-top: 0;
     text-align: center;
 }
 
@@ -191,11 +191,17 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 2.5vw 5vw 2.5vw;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 aside {
-    padding: 2vw;
+    padding: 0 2vw;
     gap: 2vw;
 }
 

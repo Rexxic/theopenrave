@@ -3,9 +3,10 @@ $eventDate = new DateTime('2022-05-27T23:00:00');
 $now = new DateTime();
 $interval = $now->diff($eventDate, true);
 ?>
-<div class="kontakt">
+<div class="infoBox">
     <h3 class="kontaktheader">
-        The Open Night: <a href="https://mobilat.club">Mobilat</a>
+        The Open Night
+        <a href="https://mobilat.club">Mobilat</a>
     </h3>
     <p class="kontakttext">
         <?php

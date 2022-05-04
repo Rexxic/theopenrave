@@ -5,7 +5,7 @@ if (!empty($dir)) {
         if (strpos($file, ".png") !== false) {
             echo '<img class="flyer" src="' . $dir . '\\' . $file . '" alt="' . $file . '">';
         } elseif (strpos($file, ".php") !== false) {
-            include($_SERVER['DOCUMENT_ROOT'] . $dir . '\\' . $file);
+            include($_SERVER['DOCUMENT_ROOT'] . $dir . '/' . $file);
         }
     }
 }

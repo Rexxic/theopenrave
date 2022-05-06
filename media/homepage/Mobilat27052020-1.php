@@ -1,7 +1,7 @@
 <?php
 $eventDate = new DateTime('2022-05-27T23:00:00');
 $now = new DateTime();
-$interval = $now->diff($eventDate, true);
+$interval = $now->diff($eventDate, False);
 ?>
 <div class="infoBox">
     <h3 class="kontaktheader">
@@ -12,8 +12,13 @@ $interval = $now->diff($eventDate, true);
         <?php
         if ($eventDate >= $now) {
             echo 'In ';
-            if ($interval->days > 0) echo $interval->days . ' Tagen und ';
-            echo $interval->h . ' Stunden ist es so weit.';
+            if($interval->days == 1) echo 'einem Tag, ';
+            elseif ($interval->days > 0) echo $interval->days . ' Tagen, ';
+            if($interval->h == 1) echo 'einer Stunde und ';
+            elseif ($interval->h > 0 || $interval->days > 0) echo $interval->h . ' Stunden und ';
+            if($interval->i == 1) echo 'einer Minute ';
+            else echo $interval->i . ' Minuten ';
+            echo  'ist es so weit.';
         }
         ?>
         Am <?= $eventDate->format('d.m.Y') ?> um <?= $eventDate->format('H') ?>

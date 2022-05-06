@@ -10,5 +10,5 @@ if(file_exists($filePath)) {
 
 if(!isset($_SESSION['views'])) {
     $_SESSION['views'] = 1;
-    fwrite(fopen($filePath,'w+'), $counter++);
+    fwrite(fopen($filePath,'w+'), $counter + 1);
 }

@@ -3,6 +3,7 @@ $servername = "localhost";
 $username = "mysql";
 $password = "Rex3141592653";
 $dbname = "hitlog";
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -11,13 +12,12 @@ if ($conn->connect_error) {
 }
 header("Content-Type: text/plain");
 
-$query = 'SELECT distinct ipAddress,description, count(*) FROM hit';
+$query = 'SELECT distinct ipAddress,description, count(*) FROM hit group by ipAddress';
 
 $stmt = $conn->prepare($query);
 $stmt->execute();
 // Prozedural
 $result = $stmt->get_result();
-
 while ($row = $result->fetch_assoc()) {
-    print_r($row);
+    echo str_replace("\n", "", print_r($row, true));
 }

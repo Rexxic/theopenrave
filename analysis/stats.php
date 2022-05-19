@@ -22,6 +22,6 @@ $stmt->execute();
 $result = $stmt->get_result();
 
 header("Content-Type: text/plain");
-while ($row = $result->fetch_assoc()) {
-    echo str_replace(["\n", "Array(    "], "", print_r($row, true)) . "\n";
+while ($row = $result->fetch_row()) {
+    echo $row[2] . ' - ' . $row[0] . ' - ' . $row[1];
 }

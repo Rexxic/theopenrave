@@ -23,5 +23,5 @@ $result = $stmt->get_result();
 
 header("Content-Type: text/plain");
 while ($row = $result->fetch_assoc()) {
-    echo str_replace("\n", "", print_r($row, true)) . "\n";
+    echo str_replace(["\n", "Array(    "], "", print_r($row, true)) . "\n";
 }

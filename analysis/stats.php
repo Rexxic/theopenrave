@@ -11,7 +11,7 @@ if ($conn->connect_error) {
 }
 header("Content-Type: text/plain");
 
-$query = 'SELECT distinct ipAddress,description,count(ipAddress) FROM hit';
+$query = 'SELECT distinct ipAddress,description, count(*) FROM hit';
 
 $stmt = $conn->prepare($query);
 $stmt->execute();

@@ -23,5 +23,5 @@ $result = $stmt->get_result();
 
 header("Content-Type: text/plain");
 while ($row = $result->fetch_row()) {
-    echo $row[2] . ' - ' . $row[0] . ' - ' . $row[1];
+    echo $row[2] . ' - ' . $row[0] . ' - ' . $row[1] . "\n";
 }

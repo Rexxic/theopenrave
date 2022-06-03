@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$query = "SELECT distinct DATE(timestamp),count(distinct ipAddress) FROM hit group by DATE(timestamp), ipAddress, description order by DATE(timestamp) desc";
+$query = "SELECT distinct DATE(timestamp),count(*) FROM hit group by DATE(timestamp), ipAddress order by DATE(timestamp) desc";
 
 $stmt = $conn->prepare($query);
 if ($stmt === FALSE) {

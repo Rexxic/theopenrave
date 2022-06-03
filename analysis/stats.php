@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$query = 'SELECT distinct ipAddress,description,count(*) FROM hit group by ipAddress, description order by count(*) desc';
+$query = 'SELECT ipAddress,description,count(*) FROM hit group by ipAddress, description order by count(*) desc';
 
 $stmt = $conn->prepare($query);
 if ($stmt === FALSE) {

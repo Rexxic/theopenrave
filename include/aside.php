@@ -59,7 +59,7 @@
                    style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
                    target="_blank">Ein Beitrag geteilt von 𝗧𝗛𝗘 𝗢𝗣𝗘𝗡 𝗥𝗔𝗩𝗘 (@theopenrave)</a></p></div>
     </blockquote>
-    <script async src="//www.instagram.com/embed.js"></script>
+    <script defer src="//www.instagram.com/embed.js"></script>
     <blockquote class="instagram-media"
                 data-instgrm-permalink="https://www.instagram.com/p/Cau7KrpNBtZ/?utm_source=ig_embed&amp;utm_campaign=loading"
                 data-instgrm-version="14"
@@ -120,5 +120,5 @@
                    style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
                    target="_blank">Ein Beitrag geteilt von 𝗧𝗛𝗘 𝗢𝗣𝗘𝗡 𝗥𝗔𝗩𝗘 (@theopenrave)</a></p></div>
     </blockquote>
-    <script async src="//www.instagram.com/embed.js"></script>
+    <script defer src="//www.instagram.com/embed.js"></script>
 </aside>

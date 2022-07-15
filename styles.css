@@ -40,13 +40,13 @@
 
     article {
         display: grid;
-        grid-template-columns: repeat(auto-fill, 25vw);
+        grid-template-columns: repeat(auto-fill, minmax(max(300px, 24vw), 1fr));
         grid-auto-flow: row;
         align-items: start;
         justify-content: start;
         flex: 3;
-        gap: 6vw;
-
+        gap: 4vw;
+        max-width: 56.6vw;
     }
 
     .refgroup {
@@ -64,6 +64,7 @@ html {
 
 main {
     padding: 4vw;
+    gap: 4vw;
 }
 
 body {

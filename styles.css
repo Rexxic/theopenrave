@@ -46,7 +46,6 @@
         justify-content: start;
         flex: 3;
         gap: 4vw;
-        max-width: 56.6vw;
     }
 
     .refgroup {
@@ -215,6 +214,7 @@ a {
 
 aside {
     gap: 2vw;
+    min-width: 26.6vw;
 }
 
 .flyer {

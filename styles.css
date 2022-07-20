@@ -62,8 +62,8 @@ html {
 }
 
 main {
-    padding: 4vw;
-    gap: 4vw;
+    padding: 4rem;
+    gap: 5rem;
 }
 
 body {
@@ -213,8 +213,8 @@ a {
 }
 
 aside {
-    gap: 2vw;
-    min-width: 26.6vw;
+    gap: 2rem;
+    min-width: 25.6vw;
 }
 
 .flyer {

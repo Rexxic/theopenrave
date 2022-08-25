@@ -15,7 +15,6 @@
       <extension name="couchbase_v2" enabled="true" />
       <extension name="crypto" enabled="true" />
       <extension name="ds" enabled="true" />
-      <extension name="eio" enabled="true" />
       <extension name="event" enabled="true" />
       <extension name="expect" enabled="true" />
       <extension name="leveldb" enabled="true" />
@@ -32,15 +31,12 @@
       <extension name="radius" enabled="true" />
       <extension name="rdkafka" enabled="true" />
       <extension name="rpminfo" enabled="true" />
-      <extension name="simple_kafka_client" enabled="true" />
       <extension name="solr" enabled="true" />
       <extension name="stats" enabled="true" />
       <extension name="stomp" enabled="true" />
       <extension name="svm" enabled="true" />
-      <extension name="swoole" enabled="true" />
       <extension name="sync" enabled="true" />
       <extension name="uopz" enabled="true" />
-      <extension name="uploadprogress" enabled="true" />
       <extension name="uuid" enabled="true" />
       <extension name="uv" enabled="true" />
       <extension name="winbinder" enabled="true" />

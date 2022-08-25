@@ -1,5 +1,5 @@
 <?php
-$eventDate = new DateTime('2022-05-27T23:00:00');
+$eventDate = new DateTime('2022-08-26T21:00:00');
 $now = new DateTime();
 $interval = $now->diff($eventDate, False);
 ?>
@@ -22,13 +22,16 @@ $interval = $now->diff($eventDate, False);
         }
         ?>
         Am <?= $eventDate->format('d.m.Y') ?> um <?= $eventDate->format('H') ?>
-        Uhr dürfen wir euch zu unserem ersten eigenen Event im Mobilat Heilbronn begrüßen.
+        Uhr dürfen wir euch zum dritten Mal in Folge in Hausen an der Zaber zum Geburtstag der Twins begrüßen.
+        Die Location ist Outdoor und das Wetter hoffentlich gut, daher bringt euch genug zum Trinken mit.
+        Los gehts um 21 Uhr und die Twins spielen B2B das Closing Morgens von 8.30 Uhr bis mindestens 11 Uhr.
     </p>
     <p class="infoText">
-        Wenn ihr Techno/HardTech feiert, kommt vorbei und wir bringen mit euch diesen Club zum Beben.
+        Da wir diesmal nicht im Club spielen können wir euch eine feinste Auswahl von Hardtech über Hardgroove
+        bis in die 160 bpm servieren.
     </p>
     <h4 class="infoText" style="margin-top: 1rem">Line-Up:</h4>
     <p class="infoText">
-        Cedric Kutulu B&#8288;-&#8288;Thoughts Brmad Hansn
+        Cedric Matze MorbX Nächstenliebe Chylla|B2B|Kutulu Brmad|B2B|B&#8288;-&#8288;Thoughts
     </p>
 </div>

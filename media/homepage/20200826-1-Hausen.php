@@ -5,8 +5,8 @@ $interval = $now->diff($eventDate, False);
 ?>
 <div class="infoBox">
     <h3 class="kontaktheader">
-        The Open Night
-        <a href="https://mobilat.club">Mobilat</a>
+        The Open Rave<br>
+        Hausen an der Zaber
     </h3>
     <p class="infoText">
         <?php

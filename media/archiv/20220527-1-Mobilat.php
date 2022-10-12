@@ -1,5 +1,5 @@
 <?php
-$eventDate = new DateTime('2022-05-27T23:00:00');
+$eventDate = new DateTime('2022-05-27T21:00:00', new DateTimeZone('Europe/Berlin'));
 $now = new DateTime();
 $interval = $now->diff($eventDate, False);
 ?>

@@ -5,7 +5,6 @@ $interval = $now->diff($eventDate, False);
 ?>
 <div class="infoBox">
     <h3 class="kontaktheader">
-        The Open Rave<br>
         Gaswerk Bönnigheim
     </h3>
     <p class="infoText">
@@ -26,11 +25,12 @@ $interval = $now->diff($eventDate, False);
     </p>
     <p class="infoText">
         Am <?= $eventDate->format('d.m.Y') ?> um <?= $eventDate->format('H') ?>
-        Uhr feiern wir im Gaswerk Bönnigheim eine „Spooky night“.
+        Uhr feiern wir im Gaswerk Bönnigheim eine „Spooky night“.<br>
     </p>
     <p class="infoText">
-        Unsere Oktoberkinder bekommen diesmal freien Eintritt 🎉✨ Verkleidungen sind immer gerne gesehen 👻
-        Wir freuen uns auf euer zahlreiches erscheinen und auf eine sehr geile bassreiche Nacht ⛓️.
+        Unsere Oktoberkinder bekommen diesmal freien Eintritt 🎉✨
+        Verkleidungen sind immer gerne gesehen 👻<br>
+        Wir freuen uns auf euer zahlreiches erscheinen und auf eine sehr geile bassreiche Nacht ⛓.
     </p>
     <h4 class="infoText" style="margin-top: 1rem">Line-Up:</h4>
     <p class="infoText">

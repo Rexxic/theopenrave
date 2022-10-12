@@ -9,7 +9,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/include/nav.php");
 <main class="content">
     <article>
         <?php
-        $dir = '/media/events';
+        $dir = '/media/homepage';
         include($_SERVER['DOCUMENT_ROOT'] . "/include/loadflyer.php")
         ?>
     </article>

@@ -14,7 +14,8 @@ $interval = $now->diff($eventDate, False);
     </p>
     <p class="infoText">
         Wir haben eine erstklassige Aufstellung von DJs für euch zusammengestellt, die euch in eine Nacht voller
-        pulsierender Beats und energiegeladener Stimmung versetzen werden. Unsere DJs, Cedric, Kutulu, Brmad b2b B-Thoughts und
+        pulsierender Beats und energiegeladener Stimmung versetzen werden. Unsere DJs, Cedric, Kutulu, Brmad b2b
+        B-Thoughts und
         Chylla, werden nacheinander auflegen und euch mit ihren einzigartigen Sounds begeistern.
     </p>
     <p class="infoText">
@@ -30,10 +31,7 @@ $interval = $now->diff($eventDate, False);
             else echo $interval->i . ' Minuten ';
         }
         ?>
-        im Gaswerk in Bönnigheim statt.
-    </p>
-    <p class="infoText">
-        Am <?= $eventDate->format('d.m.Y') ?> um <?= $eventDate->format('H') ?>
+        im Gaswerk in Bönnigheim statt, am <?= $eventDate->format('d.m.Y') ?> um <?= $eventDate->format('H') ?>
         Uhr, der Eintritt kostet 10€.<br>
     </p>
     <p class="infoText">

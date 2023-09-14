@@ -1,7 +1,7 @@
 <?php
 $servername = "127.0.0.1";
 $username = "mysql";
-$password = "Rex3141592653";
+$password = "";
 $dbname = "hitlog";
 
 // Create connection

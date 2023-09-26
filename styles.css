@@ -5,7 +5,7 @@
     --colorwhite: ghostwhite;
     --colorblack: #0f0e10;
     --minscale: 2rem;
-    --fontsize: 1.5rem
+    --fontsize: 1.4rem
 }
 
 @media screen and (orientation: portrait) {
@@ -200,16 +200,23 @@ a {
     justify-content: center;
 }
 
-.infoText {
+.infoText, .infoHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: var(--fontsize);
     text-align: center;
-    margin-bottom: 1rem;
-    margin-top: 0;
     width: 100%;
+}
+
+.infoText {
+    font-size: var(--fontsize);
+    margin: calc(var(--fontsize)/5) 0;
+}
+
+.infoHeader {
+    font-size: calc(1.2 * var(--fontsize));
+    margin: calc(var(--fontsize)/2) 0 calc(var(--fontsize)/4);
 }
 
 aside {

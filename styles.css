@@ -164,7 +164,7 @@ a {
     height: calc(1.25 * var(--minscale));
 }
 
-.kontaktheader {
+.kontaktHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +175,7 @@ a {
     text-align: center;
 }
 
-.kontakttext {
+.kontaktText {
     display: flex;
     flex-direction: column;
     align-items: center;

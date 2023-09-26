@@ -30,8 +30,7 @@ $interval = $now->diff($eventDate, False);
             if ($interval->i == 1) echo 'einer Minute';
             else echo $interval->i . ' Minuten';
         }
-        ?>
-        , am <?= $eventDate->format('d.m.Y') ?> um <?= $eventDate->format('H') ?>
+        ?>, am <?= $eventDate->format('d.m.Y') ?> um <?= $eventDate->format('H') ?>
         Uhr statt.
     </p>
     <p class="infoText">

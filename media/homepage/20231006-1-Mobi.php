@@ -27,8 +27,8 @@ $interval = $now->diff($eventDate, False);
             elseif ($interval->days > 0) echo $interval->days . ' Tagen, ';
             if ($interval->h == 1) echo 'einer Stunde und ';
             elseif ($interval->h > 0 || $interval->days > 0) echo $interval->h . ' Stunden und ';
-            if ($interval->i == 1) echo 'einer Minute ';
-            else echo $interval->i . ' Minuten ';
+            if ($interval->i == 1) echo 'einer Minute';
+            else echo $interval->i . ' Minuten';
         }
         ?>
         , am <?= $eventDate->format('d.m.Y') ?> um <?= $eventDate->format('H') ?>
@@ -38,7 +38,7 @@ $interval = $now->diff($eventDate, False);
         Freut euch auf ein Line-Up, das die Techno-Herzen höher schlagen lässt:
     </p>
     <p class="infoText">
-        <span class="infoText" style="margin: 0">CMDRb b2b 2VIL</span>
+        <span class="infoText" style="margin: 0">CMDR b2b 2VIL</span>
         <span class="infoText" style="margin: 0">CobraL</span>
         <span class="infoText" style="margin: 0">B&-Thoughts b2b Brmad</span>
         <span class="infoText" style="margin: 0">Kutulu</span>

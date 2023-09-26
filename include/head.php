@@ -10,6 +10,7 @@
     <meta name="description"
           content="Raves in Heilbronn & Umgebung - Techno, HardTech, DnB - Instagram: The Open ℝave (@theopenrave)">
     <title>The Open Rave</title>
+    <link rel="icon" type="image/x-icon" href="/media/logos/TorLogo.ico">
     <link rel="stylesheet" href="/fonts/fonts.php">
     <link rel="stylesheet" href="/styles.css">
 </head>
